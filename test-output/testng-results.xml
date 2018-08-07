@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65879" started-at="2018-08-07T09:57:09Z" finished-at="2018-08-07T09:58:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65879" started-at="2018-08-07T09:57:09Z" finished-at="2018-08-07T09:58:15Z">
+      <class name="com.ipledge.qa.MaleRegistration.Test.MaleRegistrationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ipledge.qa.MaleRegistration.Test.MaleRegistrationTest@27f723]" name="setup" is-config="true" duration-ms="30812" started-at="2018-08-07T09:57:10Z" finished-at="2018-08-07T09:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RegistrationFRPTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ipledge.qa.MaleRegistration.Test.MaleRegistrationTest@27f723]" name="RegistrationFRPTest" duration-ms="33595" started-at="2018-08-07T09:57:41Z" data-provider="getpatientinfo1Data" finished-at="2018-08-07T09:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Herman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vbndvabnv]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BigCity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[85251.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationFRPTest -->
+      </class> <!-- com.ipledge.qa.MaleRegistration.Test.MaleRegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
